@@ -1,5 +1,6 @@
 .controller.edit {
-  background: url(assets/base.svg);
+  /*background: url(assets/base.svg);*/
+  background: url(assets/kata.png);
 }
 
 .edit.disconnected {
