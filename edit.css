@@ -1,9 +1,9 @@
 .controller.edit {
-  background: url(kata.png);
+  background: url(assets/base.svg);
 }
 
 .edit.disconnected {
-  
+  background: url(assets/disconnected.svg);
 }
 
 .edit .quadrant {
@@ -27,7 +27,10 @@
 }
 
 .edit .back, .edit .start {
-    
+    background: url(assets/start-select.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
 }
 
 .edit .back.pressed, .edit .start.pressed {
@@ -44,7 +47,8 @@
 }
 
 .edit .button {
-  
+  position: absolute;
+  background: url(assets/abxy.svg);
 }
 
 .edit .button.pressed {
